@@ -25,7 +25,7 @@ final User john =
 final User olivia =
     User(id: 4, name: 'Olivia', avatarUrl: 'assets/images/olivia.jpg');
 
-final User sam = User(id: 5, name: 'Sm,', avatarUrl: 'assets/images/sam.jpg');
+final User sam = User(id: 5, name: 'Sam,', avatarUrl: 'assets/images/sam.jpg');
 
 final User sophia =
     User(id: 6, name: 'Sophia', avatarUrl: 'assets/images/sophia.jpg');
@@ -33,7 +33,7 @@ final User sophia =
 final User steven =
     User(id: 7, name: 'Steven', avatarUrl: 'assets/images/steven.jpg');
 
-List<User> favorites = [olivia, sophia, john, greg];
+List<User> favorites = [olivia, sophia, john, greg, james, sam];
 
 List<Message> chats = [
   Message(
